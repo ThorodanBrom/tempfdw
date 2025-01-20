@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dxfdw"
+authors = [
+    {name = "DX"},
+]
+description = "My package description"
+requires-python = ">=3.9"
+keywords = ["one", "two"]
+license = {text = "BSD-3-Clause"}
+dependencies = [
+    "requests",
+]
+dynamic = ["version"]
