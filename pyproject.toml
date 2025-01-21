@@ -13,5 +13,6 @@ keywords = ["one", "two"]
 license = {text = "BSD-3-Clause"}
 dependencies = [
     "requests",
+    "requests-cache",
 ]
 dynamic = ["version"]
